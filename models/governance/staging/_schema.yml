@@ -1,0 +1,39 @@
+models:
+  - name: stg_customers
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+  - name: stg_locations
+    columns:
+      - name: location_id
+        tests:
+          - not_null
+          - unique
+  - name: stg_order_items
+    columns:
+      - name: order_item_id
+        tests:
+          - not_null
+          - unique
+  - name: stg_orders
+    config:
+      access: protected
+    columns:
+      - name: order_id
+        tests:
+          - not_null
+          - unique
+  - name: stg_products
+    columns:
+      - name: product_id
+        tests:
+          - not_null
+          - unique
+  - name: stg_supplies
+    columns:
+      - name: supply_uuid
+        tests:
+          - not_null
+          - unique
