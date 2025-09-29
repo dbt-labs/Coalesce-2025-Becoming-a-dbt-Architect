@@ -1,0 +1,35 @@
+models:
+- name: hands_on_orders
+  description: This model provides a detailed view of customer orders, including financial
+    details and temporal information. It is designed to facilitate analysis of order
+    trends, customer behavior, and location performance over time.
+  columns:
+  - name: order_id
+    description: A unique identifier for each order.
+  - name: location_id
+    description: The identifier for the location where the order was placed.
+  - name: customer_id
+    description: The identifier for the customer who placed the order.
+  - name: order_total
+    description: The total amount for the order, including all items purchased.
+  - name: tax_paid
+    description: The total tax amount paid for the order.
+  - name: ordered_at
+    description: The timestamp when the order was placed.
+  - name: customer_name
+    description: The name of the customer who placed the order.
+  - name: location_name
+    description: The name of the location where the order was placed.
+  - name: tax_rate
+    description: The tax rate applied to the order.
+  - name: location_opened_at
+    description: The timestamp when the location was opened.
+  - name: ordered_month
+    description: The month when the order was placed, extracted from the ordered_at
+      timestamp.
+  - name: ordered_day
+    description: The day when the order was placed, extracted from the ordered_at
+      timestamp.
+  - name: ordered_year
+    description: The year when the order was placed, extracted from the ordered_at
+      timestamp.
