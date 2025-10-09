@@ -1,2 +1,4 @@
 models:
   - name: int_orders
+    config:
+      access: private
