@@ -16,7 +16,11 @@ with source_data as (
     select 2 as id
     union all
     select 3 as id
+<<<<<<< HEAD
         union all
+=======
+    union all
+>>>>>>> c75168e1946958d4e0f9face4658aa45f4794c21
     select 4 as id
 
 )
