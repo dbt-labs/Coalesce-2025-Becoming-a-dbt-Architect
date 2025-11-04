@@ -11,11 +11,11 @@
 
 with source_data as (
 
-    select 1 as id
+    select 1 as id1
     union all
-    select 2 as id
+    select 2 as id1
     union all
-    select 3 as id
+    select 3 as id1
     union all
     select 4 as id
 
