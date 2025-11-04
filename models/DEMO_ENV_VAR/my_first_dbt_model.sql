@@ -17,7 +17,7 @@ with source_data as (
     union all
     select 3 as id1
     union all
-    select 4 as id
+    select 4 as id1
 
 )
 
